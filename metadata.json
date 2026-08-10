@@ -1,0 +1,6 @@
+{
+  "name": "Level Up Fitness Studio",
+  "description": "Official website for Level Up Fitness Studio in Satna, MP. Personal training, functional training, boxing, kickboxing, MMA, Zumba, yoga and weight loss.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

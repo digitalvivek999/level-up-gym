@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #050505;
+    color: #ffffff;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom Utilities */
+.bg-dark-card {
+  background-color: #151515;
+}
+
+.border-accent {
+  border-color: #DFFF00;
+}
+
+.text-accent {
+  color: #DFFF00;
+}
+
+.bg-accent {
+  background-color: #DFFF00;
+}
+
+/* Pulse animation for WhatsApp badge */
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(223, 255, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 14px rgba(223, 255, 0, 0);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.5s infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DFFF00;
+}
